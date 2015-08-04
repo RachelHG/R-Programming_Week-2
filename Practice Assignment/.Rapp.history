@@ -1,0 +1,139 @@
+install.packages("KernSmooth")
+library()
+libray(KernSmooth)
+library(KernSmooth)
+x <- 1:4
+y <- 2
+x + y
+x <- c(1:4)
+y <- c(2)
+x+y
+x <- c(3, 5, 1, 10, 12, 6)
+x[x < 6] == 0
+x
+x <- c(3, 5, 1, 10, 12, 6)
+x[x == 0] <- 6
+x
+x <- c(3, 5, 1, 10, 12, 6)
+x[x != 6] <- 0
+x
+read.csv(hw1_data.csv)
+read.csv(hw1_data)
+wd
+getwd()
+cd
+cd/users/alongur/desktop/coursera
+ls
+getwd
+getwd()
+ls()
+ls(alongur)
+x <- c("a", "b", )
+x <- c("a", "b", "c","d")
+for(i in seq_along(x)) {print (x[i])}
+for (i in 1:4) {print(x[i])}
+for (letter in x) {print (letter)}
+for(i in 1:4) print(x[i])
+x <- matrix(1;6, 2, 3)
+x <- matrix(1:6, 2, 3)
+for (i in seg_len(nrow(x))) {for j in seg_len(ncol(x))) {print (x[i,j])}}
+for (i in seq_len(nrow(x))) {for j in seq_len(ncol(x))) {print (x[i,j])}}
+count <- 0
+while(count <10) {print(count) count <- count + 1}
+while(count < 10) {print(count) count <- count + 1}
+cube <- function(x, n) {}
+cube <- function(x, n) {x^3}
+cube(3)
+list.files("diet.data")
+ls("diet.data")
+list.files("diet_data")
+list.files("diet_data")
+andy <- read.csv("diet_data/Andy.csv")
+head(andy)
+length(andy$Day)
+dim(andy)
+str(andy)
+summary(andy)
+names(andy)
+list.files("specdata")
+head("331.csv")
+head
+001 <- read.csv("specdata/001.csv")
+first <- read.csv("specdata/001.csv")
+head(first)
+length(first)
+length(first$sulfate)
+summary(first)
+filenames <- list.files(specdata)
+filenames <- list.files("specdata")
+filenames
+first[1,"sulfate"]
+first[1,"nitrate"]
+first[1,"date"]
+first[1,"Date"]
+first
+first[30,"Date"]
+first[30, "Date"]
+andy[1, "Weight"]
+first <- read.csv("specdata/001.csv")
+first
+list.files("specdata")
+head(first)
+dim(first)
+first[1462, "sulfate"]
+first[1462, "sulfate"]
+first[1460, "sulfate"]
+first772, "sulfate"]
+first[772, "sulfate"]
+first[771, "sulfate"]
+first[which(first$Date == 2003-10-06), "sulfate"]
+first[which(first$Date == "2003-10-06"), "sulfate"]
+files <- list.files("specdata")
+files
+files[1]
+files[3:5]
+head(read.csv(files[3]))
+files_full <- list.files("specdata", full.names=TRUE)
+files_full
+head(read.csv(files[3]))
+head(read.csv(files_full[3]))
+andy
+files <- list.files("diet_data")
+files
+files <- list.files("diet_data")
+files
+files <- list.files("diet_data")
+files <- list.files("diet_data")
+files
+files[1]
+files[2]
+files[3:5]
+head(read.csv(files[3]))
+list.files()
+files_full <- list.files("diet_data", full.names=TRUE)
+files_full
+head(read.csv(files_full[3]))
+andy_david <- rbind(andy, read.csv(files_full[2]))
+andy_david
+head(andy_david)
+tail(andy_david)
+day_25 <- andy_david[which(andy_david$Day == 25)]
+day_25 <- andy_david[which(andy_david$Day == 25),]
+day_25
+for (i in 1:5) {print(i)}
+for (i in 1:5) {dat <- rbind(dat, read.csv(files_full[i]))}
+dat <- data.frame()
+for (i in 1:5) {dat <- rbind(dat, read.csv(files_full[i]))} str(dat)
+for (i in 1:5) {dat <- rbind(dat, read.csv(files_full[i])) str(dat)}
+for (i in 1:5) {dat <- rbind(dat, read.csv(files_full[i]))} str(dat)
+for (i in 1:5) {dat <- rbind(dat, read.csv(files_full[i]))}
+str(dat)
+summary(dat)
+mean(dat$Weight)
+dat
+?mean
+mean(dat$Weight, na.rm=TRUE)
+dat_30 <- dat[which(dat[,"day"] == 30),]
+dat_30 <- dat[which(dat[,"Day"] == 30),]
+dat_30
+mean(dat_30$Weight)
